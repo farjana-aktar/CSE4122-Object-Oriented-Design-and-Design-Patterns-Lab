@@ -1,3 +1,8 @@
+// I have created interfaces Animal, LandAnimal, AquaticAnimal, and FlyingAnimal to define common behaviors for animals, behaviors for land animals,
+// behaviors for aquatic animals, and behaviours for FlyingAnimal respectively. The Tiger class implements both Animal and LandAnimal interfaces,
+// while the Fish class implements both Animal and AquaticAnimal interfaces, and the Bird class implements both Animal and FlyingAnimal interfaces.
+// This allows each class to exhibit the specific behaviors associated with their respective interfaces.
+
 package com.Farjana;
 
 abstract class Animal {
